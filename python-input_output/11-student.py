@@ -29,3 +29,4 @@ class Student:
         """reload_from_json"""
 
         for items in json.keys():
+            self.__dict__[items] = json[items]
