@@ -6,8 +6,3 @@ SELECT s.`title`, g.`genre_id`
        ON s.`id` = g.`show_id`
        WHERE g.`genre_id` IS NULL
  ORDER BY s.`title`, g.`genre_id`;
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Pri
