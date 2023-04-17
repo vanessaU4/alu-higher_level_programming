@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-'''An empty class'''
+"""
+this is an empty class
+"""
 
 
-class BaseGeometry:
-    '''Base class'''
+class BaseGeometry():
+    """
+    here we will define some functions inside a class
+    """
     pass

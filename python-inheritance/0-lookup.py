@@ -1,7 +1,12 @@
 #!/usr/bin/python3
-'''A function that returns the available atts and methods of an object '''
+""" this ispython script that
+will list of oobjects and available attributes
+"""
 
 
 def lookup(obj):
-    '''Take an object and return its atts and methods'''
-    return list(dir(obj))
+
+    """look up function to deal with the problem
+    """
+
+    return dir(obj)

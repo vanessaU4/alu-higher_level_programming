@@ -1,15 +1,22 @@
 #!/usr/bin/python3
-''' a function that returns True if the object is
-an instance of a class that inherited (directly or indirectly)'''
+"""
+This will check if the object is an instance of a class direct or indirect
+"""
 
 
 def inherits_from(obj, a_class):
-    '''Function to check the object
-    Args:
-        obj: the object
-        a_class: the class
-    Returns:
-        True: if the object is an instance
-        False: if the object isn't an instance
-    '''
-    return isinstance(obj, a_class) and type(obj) != a_class
+    """ we have to specify whether the obj inserted
+    in an instance on a class inseted
+
+    args:
+    obj
+    a_class
+
+    returns:
+    true if is an instance
+    false if it is not
+    """
+
+    if type(obj) == a_class:
+        return False
+    return isinstance(obj, a_class)
